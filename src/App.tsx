@@ -70,7 +70,7 @@ function App() {
       <Container>
         <Resume totalTasks={tasksTotal} tasksToDo={tasksToDo} tasksDone={tasksDone}  />
         <Form onClick={handleAddTask} tasks={tasks} />
-        <TaskList tasks={tasks} setTasks={setTasks} onChange={changeStatusTask} deleteTask={deleteTask} editTask={editDescriptionTask} />
+        <TaskList tasks={tasks} onChange={changeStatusTask} deleteTask={deleteTask} editTask={editDescriptionTask} />
       </Container>
     </>
   )

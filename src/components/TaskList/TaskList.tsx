@@ -4,7 +4,6 @@ import { TaskItem } from "../TaskItem/TaskItem"
 
 type TaskListProps = {
 	tasks: Task[]
-	setTasks: (task: Task[]) => void
 	onChange: (id: string) => void
 	deleteTask: (id: string) => void
 	editTask: (description: string, id: string) => void
